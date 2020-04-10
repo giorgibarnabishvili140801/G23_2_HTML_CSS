@@ -1,0 +1,51 @@
+.container{
+   width: 600px;
+   min-height: 400px;
+   border: 10px solid limegreen;
+   margin:10px auto;
+   position: relative;
+}
+
+.container .d1{
+   width: 70px;
+   height: 90px;
+   border: 10px solid limegreen;
+   background-color: plum;
+   margin: 10px;
+   float: right;
+}
+
+.box{
+   width: 100px;
+   height: 100px;
+   border: 10px solid red;
+   position: absolute;
+}
+
+.box1{
+   background-color: magenta;
+   bottom:20px;
+   right:70px;
+}
+
+.box2{
+   background-color: greenyellow;
+   z-index: 1;
+}
+
+.box3{
+   background-color: blueviolet;
+   top:50px;
+   left: 50px;
+   z-index: 2;
+}
+
+.box4{
+   background-color:pink;
+   top:100px;
+   left: 100px;
+   z-index: 0;
+}
+
+
+
