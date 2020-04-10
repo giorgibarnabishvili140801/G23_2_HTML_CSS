@@ -1,0 +1,28 @@
+body{
+   padding: 0;
+   margin: 0;
+}
+
+div{
+   min-height: 150px;
+   border: solid 20px green;
+   /* width: 100%;
+   box-sizing: border-box; */
+}
+
+.div2{
+   border: solid 20px red;
+   margin-top: 20px;
+   margin-left: 40px;
+   padding-left: 30px;
+}
+
+.div2 div{
+   width: 70px;
+   min-height: 70px;
+   background-color: yellow;
+}
+
+.box1{
+   margin-left: 70px;
+}
