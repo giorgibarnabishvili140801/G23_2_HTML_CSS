@@ -1,0 +1,83 @@
+body{
+   margin: 0;
+}
+
+header, section, footer{
+   border: solid 1px black;
+   width: 1090px;
+   margin: auto;
+   box-sizing: border-box;
+}
+
+header{
+   height: 120px;
+   background-color: cadetblue;
+   margin-bottom: 10px;
+   padding: 30px;
+}
+
+section{
+   min-height: 420px;
+   margin-bottom: 10px;
+   overflow: hidden;
+}
+
+footer{
+   height: 50px;
+   background-color: cadetblue;
+}
+
+nav{
+   min-height: 120px;
+   width: 200px;
+   background-color: chartreuse;
+   float: left;
+}
+
+.reset_css{
+   margin:0;
+   padding: 0;
+}
+
+
+nav ul li{
+   border-bottom:1px solid black;
+}
+
+nav ul li a{
+   display: block;
+   padding: 8px;
+   text-decoration: none;
+}
+
+nav ul li:hover{
+   background-color: burlywood;
+}
+
+.content{
+   min-height: 420px;
+   width: 888px;
+   border-left: solid 1px black;
+   background-color: chocolate;
+   box-sizing: border-box;
+   float: left;
+}
+
+.row{
+   min-height: 130px;
+   width: 888px;
+   background-color:cornsilk;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+   overflow: hidden;
+}
+
+.card{
+   min-height: 140px;
+   width: 424px;
+   background-color:darkgoldenrod;
+   border: solid 1px black;
+   box-sizing: border-box;
+   margin:10px;
+   float: left;
+}
