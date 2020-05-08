@@ -1,0 +1,19 @@
+form, .divform{
+   width: 600px;
+   min-height: 300px;
+   border: solid 3px gray;
+   margin: 20px auto;
+   padding: 20px;
+}
+
+.text:focus{
+   background-color: greenyellow;
+   padding: 20px;
+}
+
+.btn{
+   padding: 10px;
+   background-color: hotpink;
+   color: ivory;
+   cursor: pointer;
+}

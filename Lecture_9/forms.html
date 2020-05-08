@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Forms</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form>
+      <input class="text" type="text">
+      <hr>
+      <input type="text" size="50" readonly value="TEST">
+      <hr>
+      <input type="text" size="50" disabled placeholder="INPUT NAME">
+      <hr>
+      <input type="password" autofocus autocomplete="off">
+      <hr>
+      <label>HTML - </label><input type="checkbox" checked>
+      <label>CSS - </label><input type="checkbox">
+      <label>SCSS - </label><input type="checkbox">
+      <hr>
+      <label>HTML - </label><input type="radio" name="web">
+      <label>CSS - </label><input type="radio" name="web">
+      <label>SCSS - </label><input type="radio" name="web">
+      <hr>
+      <input type="color">
+      <hr>
+      <input type="date">
+      <hr>
+      <input type="range">
+      <hr>
+      <input type="number" required>
+      <hr>
+      <input type="file" multiple accept=".jpg, .docx">
+      <hr>
+      <input type="hidden" value="34">
+      <hr>
+      <select>
+         <option>HTML</option>
+         <option>CSS</option>
+         <option>Bootstrap</option>
+      </select>
+      <hr>
+      <textarea cols="50" rows="10"></textarea>
+      <hr>
+      <fieldset>
+         <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+       </fieldset>
+      <hr>
+      <button disabled>FORM</button>
+      <input class="btn" type="submit" value="SUBMITFORM">
+   </form>
+   <div class="divform">
+      <button>DIVFORM</button>
+      <input type="submit" value="SUBMITDIVFORM">
+   </div>
+</body>
+</html>
