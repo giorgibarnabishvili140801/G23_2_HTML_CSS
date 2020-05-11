@@ -1,0 +1,31 @@
+@keyframes animate{
+   0% {
+      background-color: red;
+      left: 0px;
+   }
+   /* 25% {
+      background-color: green;
+      left:100px; 
+   } */
+   100%{
+      background-color: blue;
+      left:1000px; 
+   }
+}
+
+
+.box{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   border: solid 1px fuchsia;
+   background-color: gold;
+   animation-name: animate;
+   /* animation-duration: 8s; */
+   /* animation-iteration-count: infinite; */
+   /* animation-iteration-count: 1;
+   animation-direction: alternate;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards; */
+   animation: animate 8s 1 alternate ease-in forwards;
+}

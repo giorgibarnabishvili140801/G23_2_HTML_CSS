@@ -1,0 +1,32 @@
+@keyframes anime1{
+   from {
+      background-color: gold;
+      border: solid 1px fuchsia;
+      top:0px;
+      width: 400px;
+      height: 200px;
+   }
+   to {
+      top:200px;
+      background-color: green;
+      border: solid 20px indigo;
+      width: 900px;
+      height: 500px;
+   }
+}
+
+.box1{
+   width: 400px;
+   height: 200px;
+   position: relative;
+   border: solid 1px fuchsia;
+   background-color: gold;
+   margin: auto;
+   animation-name: anime1;
+   animation-duration: 5s;
+   /* animation-delay: 5s; */
+   animation-iteration-count: 3;
+   animation-iteration-count: infinite;
+   /* animation-direction: reverse; */
+   animation-direction: alternate;
+}
