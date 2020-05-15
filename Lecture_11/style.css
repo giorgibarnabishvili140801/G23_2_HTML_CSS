@@ -1,0 +1,24 @@
+@keyframes animate{
+   from{
+
+   }
+   to{
+      transform: translate(700px, 300px) rotate(360deg) scale(3, 0.4);
+   }
+}
+
+
+
+.box{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: wheat;
+   border: solid 10px;
+   border-color: yellow blue green red;
+   animation-name: animate;
+   animation-duration: 5s;
+   animation-delay: 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
